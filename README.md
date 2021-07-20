@@ -1,6 +1,6 @@
 # AGENT: A Benchmark for Core Psychological Reasoning
 
-Code for procedurally synthesizing videos used for constructing dataset, AGENT, proposed in the paper: [*AGENT: A Benchmark for Core Psychological Reasoning*](https://www.tshu.io/AGENT/AGENT.pdf).  
+Code for procedurally synthesizing videos used for constructing the trials in the dataset, AGENT, proposed in the paper: [*AGENT: A Benchmark for Core Psychological Reasoning*](https://www.tshu.io/AGENT/AGENT.pdf).  
 
 
 ## Installation and Running
@@ -31,7 +31,7 @@ Code for procedurally synthesizing videos used for constructing dataset, AGENT, 
 * Each of the train, test and validation folders will contain the final trial sets. The number of trials is
   summarized in this ![figure](util/fig1.png "The number of trials for each type in AGENT.")
   
-## Trial structure
+## Trial Structure
 * For each trial we provide RGB and Depth map images as well as state data
 * Each Trial folder is organized as :
   * Familiarization and expected or unexpected video or both depending on which set (train, validation, test) 
@@ -46,7 +46,8 @@ Code for procedurally synthesizing videos used for constructing dataset, AGENT, 
       being object attributes like position, velocity, rotation, etc. [More information](#more-on-state-data)
     * scene_config.json: This contains dictionary of objects in the scene. This is used by the procedural generation 
       script to recreate the scene.
-## More on state data
+
+## More on State Data
 * The state data which is list of dictionary, each of which represents state at each frame, uses different keys to 
   represent objects.
 * These keys include:
