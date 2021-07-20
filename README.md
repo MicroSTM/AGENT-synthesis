@@ -2,6 +2,8 @@
 
 Code for procedurally synthesizing videos used for constructing the trials in the dataset, AGENT, proposed in the paper: [*AGENT: A Benchmark for Core Psychological Reasoning*](https://www.tshu.io/AGENT/AGENT.pdf).  
 
+![figure](util/imgs/icon.gif "AGENT video example.")
+
 
 ## Installation and Running
 * Clone the repository
@@ -29,7 +31,7 @@ Code for procedurally synthesizing videos used for constructing the trials in th
 * Each subtype then contains will then contain train set and validation set or testing set depending on which 
   zip folder you are inside.
 * Each of the train, test and validation folders will contain the final trial sets. The number of trials is
-  summarized in this ![figure](util/fig1.png "The number of trials for each type in AGENT.")
+  summarized in this ![figure](util/imgs/fig1.png "The number of trials for each type in AGENT.")
   
 ## Trial Structure
 * For each trial we provide RGB and Depth map images as well as state data
