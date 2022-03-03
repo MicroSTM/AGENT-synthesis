@@ -68,13 +68,13 @@ Code for procedurally synthesizing videos used for constructing the trials in th
 
 
 ## Cite
-If you use this code in your research, please consider citing.
+If you use this code in your research, please consider citing the following the paper.
 
 ```
-@article{shu2021agent,
-  title={AGENT: A Benchmark for Core Psychological Reasoning},
+@inproceedings{shu2021agent,
+  title={{AGENT}: A Benchmark for Core Psychological Reasoning},
   author={Shu, Tianmin and Bhandwaldar, Abhishek and Gan, Chuang and Smith, Kevin A and Liu, Shari and Gutfreund, Dan and Spelke, Elizabeth and Tenenbaum, Joshua B and Ullman, Tomer D},
-  journal={The Thirty-eighth International Conference on Machine Learning (ICML)},
+  booktitle={The Thirty-eighth International Conference on Machine Learning (ICML)},
   year={2021}
 }
 ```
